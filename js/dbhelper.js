@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     // Uses window.location.host for the database host.
-    return `${window.location.protocol}://${window.location.host}/data/restaurants.json`;
+    return `${window.location.protocol}//${window.location.host}/data/restaurants.json`;
   }
 
   /**
