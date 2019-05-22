@@ -177,6 +177,7 @@ createRestaurantHTML = (restaurant) => {
 
   const address = document.createElement('p');
   address.innerHTML = restaurant.address;
+
   div.append(address);
 
   const more = document.createElement('a');
@@ -184,7 +185,7 @@ createRestaurantHTML = (restaurant) => {
   more.classList.add('view-details');
   more.href = DBHelper.urlForRestaurant(restaurant);
   div.append(more)
-
+  div.tabIndex = 0;
   return div
 }
 
