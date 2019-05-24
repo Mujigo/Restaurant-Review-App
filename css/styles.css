@@ -127,6 +127,12 @@ a img{
   width: 200px;
 }
 
+.filter-labels {
+  color: #fff;
+  font-family: Arial,sans-serif;
+  font-size: 11pt;
+}
+
 /* ====================== Restaurant Listing ====================== */
 .restaurants-list {
   background-color: #f3f3f3;
