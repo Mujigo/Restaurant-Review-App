@@ -4,6 +4,8 @@ let restaurants,
 var newMap
 var markers = []
 
+
+// Checking to see if the browser supports service workers and then if so we resiger it.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/sw.js').then(function(registration) {
